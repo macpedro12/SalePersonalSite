@@ -1,5 +1,9 @@
 import styles from "../styles/index.module.scss";
 import Link from "next/link";
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const siteTypes = [
   {
     name: "Vitrine",
@@ -22,10 +26,22 @@ const siteTypes = [
 ];
 
 export default function Home() {
+  const settings = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    infinite: true,
+    cssEase: 'linear',
+    variableWidth: true,
+    variableHeight: true
+  };
   return (
     <div className={styles.all}>
       <div className={styles.banner}>
-        <h1>Quer um site barato e que atenda suas necessidades?</h1>
+        <h1>
+          Quer um site <u className={styles.colorChange}>barato</u> e que atenda
+          suas necessidades?
+        </h1>
         <button>
           <Link href="https://api.whatsapp.com/send?phone=5521979395510">
             <a target="_blank">Peça já seu orçamento!!</a>
@@ -45,15 +61,30 @@ export default function Home() {
               </div>
             ))}
           </div>
+          <div className={styles.allresponsive}>
+            <Slider {...settings}>
+              {siteTypes.map((site) => (
+                <div className={styles.singleType} key={site.name}>
+                  <img src={site.img} />
+                  <h1>{site.name}</h1>
+                  <p>{site.description}</p>
+                </div>
+              ))}
+            </Slider>
+          </div>
         </div>
         <div className={styles.responsive}>
           <div className={styles.text}>
             <div className={styles.title}>
               <h1>
-                Garantido design responsivo para qualquer tipo de dispositivo
+                Garantido design responsivo{" "}
+                <strong>
+                  <i>para qualquer tipo de dispositivo</i>
+                </strong>
               </h1>
               <img src="/!.svg" />
             </div>
+
             <h2>Por que essa garantia é de extrema importância?</h2>
             <p>
               Simples, a responsividade deixa o seu site moderno e adaptado para
@@ -62,7 +93,7 @@ export default function Home() {
               seja no Desktop ou Mobile.
             </p>
           </div>
-          <img src="/Multiple Devices.svg" />
+          <img className={styles.multiple} src="/Multiple Devices.svg" />
         </div>
         <div className={styles.contrato}>
           <h2>Por que contratar?</h2>
