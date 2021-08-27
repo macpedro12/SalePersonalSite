@@ -3,6 +3,7 @@ import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
+import { useState } from "react";
 
 const siteTypes = [
   {
@@ -26,17 +27,23 @@ const siteTypes = [
 ];
 
 export default function Home() {
-  
+  const [darkMode, setDarkMode] = useState(false)
   return (
-    <div className={styles.all}>
-      
+    <div className={darkMode ? styles.alldark : styles.all}>
+      <div className={styles.nightMode}>
+        <button onClick={()=>setDarkMode(false)} className={darkMode ? styles.not : styles.btSelect}>
+          <img src="/on.svg" />
+        </button>
+        <button onClick={()=>setDarkMode(true)} className={!darkMode ? styles.not : styles.btSelect}>
+          <img className={styles.black} src="/off.svg" />
+        </button>
+      </div>
       <div className={styles.banner}>
-        
-          <h1 data-aos="zoom-in">
-            Quer um site <u className={styles.colorChange}>barato</u> e que
-            atenda suas necessidades?
-          </h1>
-        
+        <h1 data-aos="zoom-in">
+          Quer um site <u className={styles.colorChange}>barato</u> e que atenda
+          suas necessidades?
+        </h1>
+
         <button data-aos="fade-right">
           <Link href="https://api.whatsapp.com/send?phone=5521979395510">
             <a target="_blank">Peça já seu orçamento!!</a>
@@ -47,9 +54,13 @@ export default function Home() {
         <div className={styles.sites}>
           <h2 data-aos="fade-right">Sites:</h2>
 
-          <div className={styles.allTypes} >
+          <div className={styles.allTypes}>
             {siteTypes.map((site) => (
-              <div data-aos="slide-right"className={styles.singleType} key={site.name}>
+              <div
+                data-aos="slide-right"
+                className={styles.singleType}
+                key={site.name}
+              >
                 <img src={site.img} />
                 <h1>{site.name}</h1>
                 <p>{site.description}</p>
@@ -57,7 +68,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className={styles.responsive} >
+        <div className={styles.responsive}>
           <div className={styles.text}>
             <div className={styles.title} data-aos="fade-down">
               <h1>
@@ -69,7 +80,9 @@ export default function Home() {
               <img src="/!.svg" />
             </div>
 
-            <h2 data-aos="fade-down">Por que essa garantia é de extrema importância?</h2>
+            <h2 data-aos="fade-down">
+              Por que essa garantia é de extrema importância?
+            </h2>
             <p data-aos="fade-down">
               Simples, a responsividade deixa o seu site moderno e adaptado para
               qualquer dispositivo, assim aumentando o público que pode
@@ -77,7 +90,11 @@ export default function Home() {
               seja no Desktop ou Mobile.
             </p>
           </div>
-          <img data-aos="fade-up" className={styles.multiple} src="/Multiple Devices.svg" />
+          <img
+            data-aos="fade-up"
+            className={styles.multiple}
+            src="/Multiple Devices.svg"
+          />
         </div>
         <div className={styles.contrato} data-aos="slide-right">
           <h2>Por que contratar?</h2>
@@ -98,7 +115,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className={styles.contato} >
+      <div className={styles.contato}>
         <div className={styles.ctitle}>
           <h1 data-aos="fade-down">Quer atingir um público maior?</h1>
           <h1 data-aos="fade-down">Pare de perder tempo!!</h1>
