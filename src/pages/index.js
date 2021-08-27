@@ -1,9 +1,9 @@
 import styles from "../styles/index.module.scss";
 import Link from "next/link";
-import Slider from "react-slick";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "aos/dist/aos.css";
+
 const siteTypes = [
   {
     name: "Vitrine",
@@ -26,23 +26,18 @@ const siteTypes = [
 ];
 
 export default function Home() {
-  const settings = {
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true,
-    infinite: true,
-    cssEase: 'linear',
-    variableWidth: true,
-    variableHeight: true
-  };
+  
   return (
     <div className={styles.all}>
+      
       <div className={styles.banner}>
-        <h1>
-          Quer um site <u className={styles.colorChange}>barato</u> e que atenda
-          suas necessidades?
-        </h1>
-        <button>
+        
+          <h1 data-aos="zoom-in">
+            Quer um site <u className={styles.colorChange}>barato</u> e que
+            atenda suas necessidades?
+          </h1>
+        
+        <button data-aos="fade-right">
           <Link href="https://api.whatsapp.com/send?phone=5521979395510">
             <a target="_blank">Peça já seu orçamento!!</a>
           </Link>
@@ -50,32 +45,21 @@ export default function Home() {
       </div>
       <div className={styles.info}>
         <div className={styles.sites}>
-          <h2>Sites:</h2>
+          <h2 data-aos="fade-right">Sites:</h2>
 
-          <div className={styles.allTypes}>
+          <div className={styles.allTypes} >
             {siteTypes.map((site) => (
-              <div className={styles.singleType} key={site.name}>
+              <div data-aos="slide-right"className={styles.singleType} key={site.name}>
                 <img src={site.img} />
                 <h1>{site.name}</h1>
                 <p>{site.description}</p>
               </div>
             ))}
           </div>
-          <div className={styles.allresponsive}>
-            <Slider {...settings}>
-              {siteTypes.map((site) => (
-                <div className={styles.singleType} key={site.name}>
-                  <img src={site.img} />
-                  <h1>{site.name}</h1>
-                  <p>{site.description}</p>
-                </div>
-              ))}
-            </Slider>
-          </div>
         </div>
-        <div className={styles.responsive}>
+        <div className={styles.responsive} >
           <div className={styles.text}>
-            <div className={styles.title}>
+            <div className={styles.title} data-aos="fade-down">
               <h1>
                 Garantido design responsivo{" "}
                 <strong>
@@ -85,17 +69,17 @@ export default function Home() {
               <img src="/!.svg" />
             </div>
 
-            <h2>Por que essa garantia é de extrema importância?</h2>
-            <p>
+            <h2 data-aos="fade-down">Por que essa garantia é de extrema importância?</h2>
+            <p data-aos="fade-down">
               Simples, a responsividade deixa o seu site moderno e adaptado para
               qualquer dispositivo, assim aumentando o público que pode
               acessá-lo, pois fornece sempre um site acessível e bem-apresentado
               seja no Desktop ou Mobile.
             </p>
           </div>
-          <img className={styles.multiple} src="/Multiple Devices.svg" />
+          <img data-aos="fade-up" className={styles.multiple} src="/Multiple Devices.svg" />
         </div>
-        <div className={styles.contrato}>
+        <div className={styles.contrato} data-aos="slide-right">
           <h2>Por que contratar?</h2>
           <p>
             Aqui o foco é a satisfação do cliente, ou seja, você estará
@@ -104,7 +88,7 @@ export default function Home() {
             componente.
           </p>
         </div>
-        <div className={styles.desenvolvido}>
+        <div className={styles.desenvolvido} data-aos="zoom-in">
           <h2>O que é desenvolvido?</h2>
           <img src="/Arrow 1.svg" />
           <p>
@@ -114,13 +98,13 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className={styles.contato}>
+      <div className={styles.contato} >
         <div className={styles.ctitle}>
-          <h1>Quer atingir um público maior?</h1>
-          <h1>Pare de perder tempo!!</h1>
-          <h1>E consulte a tabela de preço.</h1>
+          <h1 data-aos="fade-down">Quer atingir um público maior?</h1>
+          <h1 data-aos="fade-down">Pare de perder tempo!!</h1>
+          <h1 data-aos="fade-down">E consulte a tabela de preço.</h1>
         </div>
-        <div className={styles.contato2}>
+        <div className={styles.contato2} data-aos="slide-right">
           <h2>Mande mensagem para o Whatsapp:</h2>
           <div className={styles.contato3}>
             <Link href="https://api.whatsapp.com/send?phone=5521979395510">
@@ -132,7 +116,7 @@ export default function Home() {
             <p>(21) 97939 - 5510</p>
           </div>
         </div>
-        <div className={styles.contato2}>
+        <div className={styles.contato2} data-aos="slide-right">
           <h2>Ou para o e-mail:</h2>
           <div className={styles.contato3}>
             <img src="/Email.svg" />
