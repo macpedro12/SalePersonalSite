@@ -67,6 +67,7 @@ export default function Home() {
               </div>
             ))}
           </div>
+          <Link href={{pathname:"/exemplos", query:{darkMode}}}><button className={styles.bt}>Exemplos...</button></Link>
         </div>
         <div className={styles.responsive}>
           <div className={styles.text}>
