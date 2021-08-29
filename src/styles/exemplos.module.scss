@@ -1,0 +1,1875 @@
+@media (max-width: 300px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    .nightMode {
+      display: flex;
+      width: 60px;
+      height: 25px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      left: 5%;
+      top: 8%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      img {
+        padding-top: 1px;
+        width: 22px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      font-size: 18px;
+      color: var(--botao);
+    }
+    .info {
+      height: 80%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 50%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 10px;
+          font-weight: 700;
+          padding-bottom: 1rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 7px;
+          text-align: right;
+        }
+        p {
+          font-size: 7px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 5rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 8rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 9px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+            
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 20px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    .nightMode {
+      display: flex;
+      width: 60px;
+      height: 25px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      left: 5%;
+      top: 8%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      img {
+        padding-top: 1px;
+        width: 22px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      font-size: 18px;
+      color: var(--botao);
+    }
+    .info {
+      height: 85%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 50%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 10px;
+          font-weight: 700;
+          padding-bottom: 1rem;
+          border-bottom: 1px solid white;
+        }
+        h2 {
+          font-size: 7px;
+          text-align: right;
+        }
+        p {
+          font-size: 7px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 5rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 8rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 9px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+            
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 20px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+}
+@media (min-width: 300px) and (max-width: 370px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    .nightMode {
+      display: flex;
+      width: 60px;
+      height: 25px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      img {
+        padding-top: 1px;
+        width: 22px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      font-size: 24px;
+      color: var(--botao);
+    }
+    .info {
+      height: 80%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 60%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 12px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 10px;
+          text-align: right;
+        }
+        p {
+          font-size: 10px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 7rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    .nightMode {
+      display: flex;
+      width: 60px;
+      height: 25px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      img {
+        padding-top: 1px;
+        width: 22px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      font-size: 24px;
+      color: var(--botao);
+    }
+    .info {
+      height: 80%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 60%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 12px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid white;
+        }
+        h2 {
+          font-size: 10px;
+          text-align: right;
+        }
+        p {
+          font-size: 10px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 7rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+}
+@media (min-width: 370px) and (max-width: 400px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+
+    .nightMode {
+      display: flex;
+      width: 60px;
+      height: 25px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      img {
+        padding-top: 1px;
+        width: 22px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      font-size: 24px;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 65%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 18px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 15px;
+          text-align: right;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 10rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+
+    .nightMode {
+      display: flex;
+      width: 60px;
+      height: 25px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      img {
+        padding-top: 1px;
+        width: 22px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      font-size: 24px;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 65%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 20px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid white;
+        }
+        h2 {
+          font-size: 15px;
+          text-align: right;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 10rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+
+    .nightMode {
+      display: flex;
+      width: 60px;
+      height: 25px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      img {
+        padding-top: 1px;
+        width: 22px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      font-size: 24px;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 70%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 18px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 15px;
+          text-align: right;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 10rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+
+    .nightMode {
+      display: flex;
+      width: 60px;
+      height: 25px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 30px;
+        height: 25px;
+        border-radius: 150px;
+      }
+      img {
+        padding-top: 1px;
+        width: 22px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      font-size: 24px;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 70%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 18px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid white;
+        }
+        h2 {
+          font-size: 15px;
+          text-align: right;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 10rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 80%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 24px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 18px;
+          text-align: right;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 10rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 80%;
+        padding: 2rem 4rem 2rem 4rem;
+        border-radius: 15px;
+        h1 {
+          text-align: justify;
+          font-size: 24px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid white;
+        }
+        h2 {
+          font-size: 18px;
+          text-align: right;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 10rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 4rem 0 2rem 0;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 85%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 80%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 24px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 18px;
+          text-align: right;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 10rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 4rem 0 2rem 0;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 85%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      .text {
+        width: 80%;
+        padding: 2rem 4rem 2rem 4rem;
+        border-radius: 15px;
+        h1 {
+          text-align: justify;
+          font-size: 24px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid white;
+        }
+        h2 {
+          font-size: 18px;
+          text-align: right;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 10rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        align-self: center;
+        padding: 2rem 0 2rem 0;
+        width: 95%;
+      }
+    }
+  }
+}
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+    height: 105vh;
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      border-radius: 15px;
+      .text {
+        width: 45%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 18px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 12px;
+          text-align: right;
+        }
+        p {
+          font-size: 12px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 12rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        padding: 2rem;
+        width: 45%;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    height: 105vh;
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      border-radius: 15px;
+      .text {
+        width: 45%;
+        padding: 2rem 4rem 2rem 4rem;
+        border-radius: 15px;
+        h1 {
+          text-align: justify;
+          font-size: 18px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 12px;
+          text-align: right;
+        }
+        p {
+          font-size: 12px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 12rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 6rem;
+            height: 1.5rem;
+            text-align: center;
+            font-size: 15px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 1.5rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 25px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        padding: 2rem;
+        width: 45%;
+      }
+    }
+  }
+}
+@media (min-width: 1400px) and (max-width: 2000px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+    height: 105vh;
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 3rem 0 2rem 0;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      border-radius: 15px;
+      .text {
+        width: 45%;
+        padding: 2rem 4rem 2rem 4rem;
+        h1 {
+          text-align: justify;
+          font-size: 26px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 20px;
+          text-align: right;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 8rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 7rem;
+            height: 2rem;
+            text-align: center;
+            font-size: 18px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 2rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 28px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      .img {
+        padding: 2rem;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    height: 105vh;
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 3rem 0 2rem 0;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      border-radius: 15px;
+      .text {
+        width: 45%;
+        padding: 2rem 4rem 2rem 4rem;
+        border-radius: 15px;
+        h1 {
+          text-align: justify;
+          font-size: 26px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 20px;
+          text-align: right;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 8rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 7rem;
+            height: 2rem;
+            text-align: center;
+            font-size: 18px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 2rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 28px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        padding: 2rem;
+      }
+    }
+  }
+}
+@media (min-width: 2000px) {
+  .all {
+    background: var(--rosa);
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 3rem 0 2rem 0;
+      font-size: 48px;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: white;
+      display: flex;
+      border-radius: 15px;
+      .text {
+        align-self: center;
+        width: 30%;
+        padding: 5rem 4rem 2rem 29rem;
+        h1 {
+          text-align: justify;
+          font-size: 32px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid black;
+        }
+        h2 {
+          font-size: 24px;
+          text-align: right;
+        }
+        p {
+          font-size: 22px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 8rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 7rem;
+            height: 2rem;
+            text-align: center;
+            font-size: 18px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 2rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 28px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        padding: 2rem 0 2rem 8rem;
+        width: 30%;
+      }
+    }
+  }
+  .alldark {
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    .nightMode {
+      display: flex;
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      border-radius: 150px;
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      z-index: 1;
+      .not {
+        border: none;
+        background-color: white;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      .btSelect {
+        border: none;
+        background-color: black;
+        width: 60px;
+        height: 35px;
+        border-radius: 150px;
+      }
+      img {
+        width: 30px;
+      }
+      .black {
+        margin-left: auto;
+      }
+    }
+    .title {
+      padding: 3rem 0 2rem 0;
+      font-size: 48px;
+      text-align: center;
+      color: var(--botao);
+    }
+    .info {
+      height: 75%;
+      width: 95%;
+      align-self: center;
+      background: black;
+      color: white;
+      display: flex;
+      border-radius: 15px;
+      .text {
+        align-self: center;
+        width: 30%;
+        padding: 5rem 4rem 2rem 29rem;
+        h1 {
+          text-align: justify;
+          font-size: 32px;
+          font-weight: 700;
+          padding-bottom: 2rem;
+          border-bottom: 1px solid white;
+        }
+        h2 {
+          font-size: 24px;
+          text-align: right;
+        }
+        p {
+          font-size: 22px;
+          font-weight: 300;
+        }
+        .buttons {
+          padding-top: 8rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          .bt {
+            width: 7rem;
+            height: 2rem;
+            text-align: center;
+            font-size: 18px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin-right: 2rem;
+          }
+          a {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            height: 2rem;
+            img {
+              padding: 0 1rem;
+              align-self: center;
+              width: 28px;
+              filter: invert(31%) sepia(85%) saturate(2396%) hue-rotate(155deg)
+                brightness(91%) contrast(86%);
+            }
+          }
+        }
+      }
+      img {
+        padding: 2rem 0 2rem 8rem;
+        width: 30%;
+      }
+    }
+  }
+}
