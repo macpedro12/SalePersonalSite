@@ -3,7 +3,6 @@ import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
-import { useState } from "react";
 
 const siteTypes = [
   {
@@ -26,15 +25,20 @@ const siteTypes = [
   },
 ];
 
-export default function Home() {
-  const [darkMode, setDarkMode] = useState(false)
+export default function Home({ darkMode, newDarkMode }) {
   return (
     <div className={darkMode ? styles.alldark : styles.all}>
       <div className={styles.nightMode}>
-        <button onClick={()=>setDarkMode(false)} className={darkMode ? styles.not : styles.btSelect}>
+        <button
+          onClick={newDarkMode}
+          className={darkMode ? styles.not : styles.btSelect}
+        >
           <img src="/on.svg" />
         </button>
-        <button onClick={()=>setDarkMode(true)} className={!darkMode ? styles.not : styles.btSelect}>
+        <button
+          onClick={newDarkMode}
+          className={!darkMode ? styles.not : styles.btSelect}
+        >
           <img className={styles.black} src="/off.svg" />
         </button>
       </div>
@@ -67,7 +71,9 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <Link href={{pathname:"/exemplos", query:{darkMode}}}><button className={styles.bt}>Exemplos...</button></Link>
+          <Link href={{ pathname: "/exemplos", query: { darkMode } }}>
+            <button className={styles.bt}>Exemplos...</button>
+          </Link>
         </div>
         <div className={styles.responsive}>
           <div className={styles.text}>
@@ -98,7 +104,7 @@ export default function Home() {
           />
         </div>
         <div className={styles.contrato} data-aos="slide-right">
-          <h2>Por que contratar?</h2>
+          <h2>Mas por que contratar?</h2>
           <p>
             Aqui o foco é a satisfação do cliente, ou seja, você estará
             participando no desenvolvimento do seu site. Você poderá escolher
@@ -110,9 +116,9 @@ export default function Home() {
           <h2>O que é desenvolvido?</h2>
           <img src="/Arrow 1.svg" />
           <p>
-            O foco é o desenvolvimento de sites estáticos, que são perfeitos
-            para quem deseja criar uma vitrine para seus produtos ou projetos
-            pessoais.
+            Com as ferramentas NextJS e SCSS, o foco é o desenvolvimento de
+            sites estáticos, esses que são bastantes utilizados por quem deseja
+            divulgar o seu trabalho ou exibir seus projetos pessoais.
           </p>
         </div>
       </div>
