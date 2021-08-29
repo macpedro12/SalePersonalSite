@@ -64,7 +64,7 @@
     .info {
       background: white;
       border-radius: 50px;
-      height: 2250px;
+      height: 2350px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -296,7 +296,7 @@
       background: black;
       color: white;
       border-radius: 50px;
-      height: 2250px;
+      height: 2350px;
       img{
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(101%) contrast(102%);
       }
@@ -534,7 +534,7 @@
     .info {
       background: white;
       border-radius: 50px;
-      height: 2400px;
+      height: 2500px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -768,7 +768,7 @@
       background: black;
       color: white;
       border-radius: 50px;
-      height: 2400px;
+      height: 2500px;
       img{
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(101%) contrast(102%);
       }
@@ -1005,7 +1005,7 @@
     .info {
       background: white;
       border-radius: 50px;
-      height: 2400px;
+      height: 2500px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -1239,7 +1239,7 @@
       background: black;
       color: white;
       border-radius: 50px;
-      height: 2400px;
+      height: 2500px;
       img{filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(101%) contrast(102%);}
       .sites {
         display: flex;
@@ -1411,7 +1411,6 @@
     }
   }
 }
-
 @media (min-width: 400px) and (max-width: 600px) {
   .all {
     background: var(--rosa);
@@ -1478,7 +1477,7 @@
     .info {
       background: white;
       border-radius: 75px;
-      height: 3000px;
+      height: 3100px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -1713,7 +1712,7 @@
       background: black;
       color: white;
       border-radius: 75px;
-      height: 3000px;
+      height: 3100px;
       img{
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(101%) contrast(102%);
       }
@@ -1951,7 +1950,7 @@
     .info {
       background: white;
       border-radius: 75px;
-      height: 3000px;
+      height: 3100px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -2187,7 +2186,7 @@
       background: black;
       color: white;
       border-radius: 75px;
-      height: 3000px;
+      height: 3100px;
       img{
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(101%) contrast(102%);
       }
@@ -2426,7 +2425,7 @@
     .info {
       background: white;
       border-radius: 75px;
-      height: 3000px;
+      height: 3100px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -2662,7 +2661,7 @@
       background: black;
       color: white;
       border-radius: 75px;
-      height: 3000px;
+      height: 3100px;
       img{
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(101%) contrast(102%);
       }
@@ -2899,7 +2898,7 @@
     .info {
       background: white;
       border-radius: 75px;
-      height: 2500px;
+      height: 2600px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -3127,7 +3126,7 @@
     .info {
       background: black;
       border-radius: 75px;
-      height: 2500px;
+      height: 2600px;
       color: white;
       img{
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(101%) contrast(102%);
@@ -3362,40 +3361,12 @@
         font-weight: 800;
         font-family: "Poppins";
       }
-    }
-    .bannerDarkMode {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      height: 750px;
-      color: white;
-      background-color: var(--grey);
-      .colorChange {
-        color: var(--botao);
-      }
-      h1 {
-        height: 288px;
-        width: 700px;
-        padding: 0 0 0 5rem;
-        font-size: 64px;
-        font-weight: 800;
-      }
-      button {
-        height: 190px;
-        width: 400px;
-        margin-left: 6rem;
-        background: var(--botao);
-        border: none;
-        border-radius: 15px;
-        font-size: 48px;
-        font-weight: 800;
-        font-family: "Poppins";
-      }
+      
     }
     .info {
       background: white;
       border-radius: 75px;
-      height: 2500px;
+      height: 2650px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -3619,7 +3590,7 @@
     .info {
       background: black;
       border-radius: 75px;
-      height: 2500px;
+      height: 2650px;
       color: white;
       img {
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg)
@@ -3850,7 +3821,7 @@
     .info {
       background: white;
       border-radius: 75px;
-      height: 3200px;
+      height: 3400px;
       .sites {
         display: flex;
         flex-direction: column;
@@ -4081,7 +4052,7 @@
     .info {
       background: black;
       border-radius: 75px;
-      height: 3200px;
+      height: 3400px;
       color: white;
       img{
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(101%) contrast(102%);
