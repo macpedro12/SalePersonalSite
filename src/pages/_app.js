@@ -1,8 +1,8 @@
 import "../styles/global.scss";
 import AOS from "aos";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-function MyApp({ Component, pageProps }) {
+function CustomApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
       easing: "ease-out-cubic",
@@ -10,7 +10,9 @@ function MyApp({ Component, pageProps }) {
       mirror:true, 
     });
   }, []);
-  return <Component {...pageProps} />;
+  const [darkMode,setDarkMode] =useState(false);
+  const newDarkMode = () => setDarkMode(!darkMode)
+  return <Component {...pageProps} darkMode ={darkMode} newDarkMode={newDarkMode}/>;
 }
 
-export default MyApp;
+export default CustomApp;
